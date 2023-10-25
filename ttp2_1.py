@@ -1,6 +1,6 @@
 import numpy as nump
 
-
+#I am Skreemerik
 def matrix_input(matrix):
     size = int(input("Введите размер квадратной матрицы: "))
     matrix = []

@@ -4,11 +4,6 @@ import ttp2_3
 
 # It's a master branch Second try
 def main():
-    target = 0
-    matrix = None
-    array = []
-    array1 = []
-    array2 = []
     while True:
         print("\nМеню:")
         print("1. Перейти к списку заданий")
@@ -23,11 +18,11 @@ def main():
             print("4. Вернуться в главное меню")
             sub_choice = str(input("Введите пункт меню: "))
             if sub_choice == "1":
-                ttp2_1.first_task(matrix)
+                ttp2_1.first_task()
             elif sub_choice == "2":
-                ttp2_2.second_task(array1, array2)
+                ttp2_2.second_task()
             elif sub_choice == "3":
-                ttp2_3.third_task(array, target)
+                ttp2_3.third_task()
             elif sub_choice == "4":
                 continue
             else:
